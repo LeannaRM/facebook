@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Facebook</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script type="text/javascript" src="scripts.js"></script>
+
+</head>
+<body>
+
+<div class="outerContainer">
+  <h1>Facebook</h1>
+  
+  <div class="post">
+    <div class="post__main">
+      <div class="media">
+        <img src="images/user.png" class="profilePhoto">
+
+        <div class="media__info">
+          <a href="#" class = "name" data-friends = "50">Leanna</a>
+          <div>Yesterday at 10:00am</div>
+        </div>
+      </div>
+
+      <div class="post__body">
+        <p>Hello world!</p>
+      </div>
+
+      <div class="post__actions">
+        <a href="#" class="action action--like firstlike">Like</a>
+        <a href="#" class="action action--unlike firstlike" style="display:none">Unlike</a>
+        <a href="#" class="action action--comment">Comment</a>
+        <a href="#" class="action action--share">Share</a>
+      </div>
+    </div>
+
+    <div class="post__details">
+      <div class="post__info">
+        <span>28 likes</span>
+        <span>3 comments</span>
+      </div>
+
+      <div class="post__comments">
+        <div class="comment media">
+          <img src="images/user.png" class="profilePhoto">
+
+          <div class="media__info">
+            <a href="#" class = "name" data-friends = "40">Paul</a>
+            Donec imperdiet sem leo, id rutrum risus aliquam vitae. Cras tincidunt porta mauris, vel feugiat mauris accumsan eget.
+
+            <div class="comment__info">
+              <a href="#" class="action action--like" >Like</a>
+              <a href="#" class="action action--unlike" style="display:none">Unlike</a>
+              <a href="#" class="action action--reply">4 replies</a>
+              <span>2 likes</span>
+              Yesterday at 10:00am
+            </div>
+
+            <div class="replies" style="display: none">
+              <div class="comment media">
+                <img src="images/user.png" class="profilePhoto">
+
+                <div class="media__info">
+                  <a href="#" class = "name" data-friends = "50">Bob</a>
+                  Donec imperdiet sem leo, id rutrum risus aliquam vitae. Cras tincidunt porta mauris, vel feugiat mauris accumsan eget.
+
+                  <div class="comment__info">
+                    <a href="#" class="action action--like">Like</a>
+                    <a href="#" class="action action--unlike" style="display:none">Unlike</a>
+                    <a href="#" class="action action--reply">Reply</a>
+                    <span>2 likes</span>
+                    Yesterday at 10:00am
+                  </div>
+                </div>
+              </div>
+
+              <div class="comment media">
+                <img src="images/user.png" class="profilePhoto">
+
+                <div class="media__info">
+                  <a href="#" class = "name" data-friends = "30">Joe</a>
+                  <p>Donec imperdiet sem leo, id rutrum risus aliquam vitae. Cras tincidunt porta mauris, vel feugiat mauris accumsan eget.</p>
+
+                  <div class="comment__info">
+                    <a href="#" class="action action--like">Like</a>
+                    <a href="#" class="action action--unlike" style="display:none">Unlike</a>
+                    <a href="#" class="action action--reply">Reply</a>
+                    <span>2 likes</span>
+                    Yesterday at 10:00am
+                  </div>
+                </div>
+              </div>
+
+              <div class="comment media">
+                <img src="images/user.png" class="profilePhoto">
+
+                <div class="media__info">
+                  <a href="#" class = "name" data-friends = "10">Susie</a>
+                  Donec imperdiet sem leo, id rutrum risus aliquam vitae. Cras tincidunt porta mauris, vel feugiat mauris accumsan eget.
+
+                  <div class="comment__info">
+                    <a href="#" class="action action--like">Like</a>
+                    <a href="#" class="action action--unlike" style="display:none">Unlike</a>
+                    <a href="#" class="action action--reply">2 replies</a>
+                    <span>2 likes</span>
+                    Yesterday at 10:00am
+                  </div>
+
+                  <div class="replies" style="display: none">
+                    <div class="comment media">
+                      <img src="images/user.png" class="profilePhoto">
+
+                      <div class="media__info">
+                        <a href="#" class = "name" data-friends = "80">Amy</a>
+                        Donec imperdiet sem leo, id rutrum risus aliquam vitae. Cras tincidunt porta mauris, vel feugiat mauris accumsan eget.
+
+                        <div class="comment__info">
+                          <a href="#" class="action action--like">Like</a>
+                          <a href="#" class="action action--unlike" style="display:none">Unlike</a>
+                          <a href="#" class="action action--reply">Reply</a>
+                          <span>2 likes</span>
+                          Yesterday at 10:00am
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="comment media">
+                      <img src="images/user.png" class="profilePhoto">
+
+                      <div class="media__info">
+                        <a href="#" class = "name" data-friends = "90">Ali</a>
+                        Donec imperdiet sem leo, id rutrum risus aliquam vitae. Cras tincidunt porta mauris, vel feugiat mauris accumsan eget.
+
+                        <div class="comment__info">
+                          <a href="#" class="action action--like">Like</a>
+                          <a href="#" class="action action--unlike" style="display:none">Unlike</a>
+                          <a href="#" class="action action--reply">Reply</a>
+                          <span>2 likes</span>
+                          Yesterday at 10:00am
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="commentForm media">
+                      <img src="images/user.png" class="profilePhoto">
+
+                      <div class="media__info">
+                        <form action="#" method="post">
+                          <textarea name="comment"></textarea>
+                          <input type="submit" class="action--submitcomment">
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="comment media">
+                <img src="images/user.png" class="profilePhoto">
+
+                <div class="media__info">
+                  <a href="#" class = "name" data-friends = "90">Larry</a>
+                  <p>Donec imperdiet sem leo, id rutrum risus aliquam vitae. Cras tincidunt porta mauris, vel feugiat mauris accumsan eget.</p>
+
+                  <div class="comment__info">
+                    <a href="#" class="action action--like" >Like</a>
+                    <a href="#" class="action action--unlike" style="display:none">Unlike</a>
+                    <a href="#" class="action action--reply">Reply</a>
+                    <span>2 likes</span>
+                    Yesterday at 10:00am
+                  </div>
+                </div>
+              </div>
+
+              <div class="commentForm media">
+                <img src="images/user.png" class="profilePhoto">
+
+                <div class="media__info">
+                  <form action="#" method="post">
+                    <textarea name="comment"></textarea>
+                    <input type="submit" class="action--submitcomment">
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="comment media">
+          <img src="images/user.png" class="profilePhoto">
+
+          <div class="media__info">
+            <a href="#" class = "name" data-friends = "100">Beth</a>
+            <p style="display:inline">Donec imperdiet sem leo, id rutrum risus aliquam vitae. Cras tincidunt porta mauris, vel feugiat mauris accumsan eget.</p>
+
+            <div class="comment__info">
+              <a href="#" class="action action--like" >Like</a>
+              <a href="#" class="action action--unlike" style="display:none">Unlike</a>
+              <a href="#" class="action action--reply">Reply</a>
+              <span>2 likes</span>
+              Yesterday at 10:00am
+            </div>
+
+            <div class="replies" style="display: none">
+              <div class="commentForm media">
+                <img src="images/user.png" class="profilePhoto">
+
+                <div class="media__info">
+                  <form action="#" method="post">
+                    <textarea name="comment"></textarea>
+                    <input type="submit" class="action--submitcomment">
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="comment media">
+          <img src="images/user.png" class="profilePhoto">
+
+          <div class="media__info">
+            <a href="#" class = "name" data-friends = "200">Lizzy</a>
+            <p style="display:inline">Donec imperdiet sem leo, id rutrum risus aliquam vitae. Cras tincidunt porta mauris, vel feugiat mauris accumsan eget.</p>
+
+            <div class="comment__info">
+              <a href="#" class="action action--like" >Like</a>
+              <a href="#" class="action action--unlike" style="display:none">Unlike</a>
+              <a href="#" class="action action--reply">3 replies</a>
+              <span>2 likes</span>
+              Yesterday at 10:00am
+            </div>
+
+            <div class="replies" style="display: none">
+              <div class="comment media">
+                <img src="images/user.png" class="profilePhoto">
+
+                <div class="media__info">
+                  <a href="#" class = "name" data-friends = "70">Jenny</a>
+                  Donec imperdiet sem leo, id rutrum risus aliquam vitae. Cras tincidunt porta mauris, vel feugiat mauris accumsan eget.
+
+                  <div class="comment__info">
+                    <a href="#" class="action action--like" >Like</a>
+                    <a href="#" class="action action--unlike" style="display:none">Unlike</a>
+                    <a href="#" class="action action--reply">Reply</a>
+                    <span>2 likes</span>
+                    Yesterday at 10:00am
+                  </div>
+                </div>
+              </div>
+
+              <div class="comment media">
+                <img src="images/user.png" class="profilePhoto">
+
+                <div class="media__info">
+                  <a href="#" class = "name" data-friends = "110">Tom</a>
+                  Donec imperdiet sem leo, id rutrum risus aliquam vitae. Cras tincidunt porta mauris, vel feugiat mauris accumsan eget.
+
+                  <div class="comment__info">
+                    <a href="#" class="action action--like" >Like</a>
+                    <a href="#" class="action action--unlike" style="display:none">Unlike</a>
+                    <a href="#" class="action action--reply">3 replies</a>
+                    <span>2 likes</span>
+                    Yesterday at 10:00am
+                  </div>
+
+                  <div class="replies" style="display: none">
+                    <div class="comment media">
+                      <img src="images/user.png" class="profilePhoto">
+
+                      <div class="media__info">
+                        <a href="#" class = "name" data-friends = "130">Jill</a>
+                        Donec imperdiet sem leo, id rutrum risus aliquam vitae. Cras tincidunt porta mauris, vel feugiat mauris accumsan eget.
+
+                        <div class="comment__info">
+                          <a href="#" class="action action--like" >Like</a>
+                          <a href="#" class="action action--unlike" style="display:none">Unlike</a>
+                          <a href="#" class="action action--reply">Reply</a>
+                          <span>2 likes</span>
+                          Yesterday at 10:00am
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="comment media">
+                      <img src="images/user.png" class="profilePhoto">
+
+                      <div class="media__info">
+                        <a href="#" class = "name" data-friends = "5">Tim</a>
+                        Donec imperdiet sem leo, id rutrum risus aliquam vitae. Cras tincidunt porta mauris, vel feugiat mauris accumsan eget.
+
+                        <div class="comment__info">
+                          <a href="#" class="action action--like" >Like</a>
+                          <a href="#" class="action action--unlike" style="display:none">Unlike</a>
+                          <a href="#" class="action action--reply">Reply</a>
+                          <span>2 likes</span>
+                          Yesterday at 10:00am
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="comment media">
+                      <img src="images/user.png" class="profilePhoto">
+
+                      <div class="media__info">
+                        <a href="#" class = "name" data-friends = "25">Ann</a>
+                        Donec imperdiet sem leo, id rutrum risus aliquam vitae. Cras tincidunt porta mauris, vel feugiat mauris accumsan eget.
+
+                        <div class="comment__info">
+                          <a href="#" class="action action--like" >Like</a>
+                          <a href="#" class="action action--unlike" style="display:none">Unlike</a>
+                          <a href="#" class="action action--reply">Reply</a>
+                          <span>2 likes</span>
+                          Yesterday at 10:00am
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="commentForm media">
+                      <img src="images/user.png" class="profilePhoto">
+
+                      <div class="media__info">
+                        <form action="#" method="post">
+                          <textarea name="comment"></textarea>
+                          <input type="submit" class="action--submitcomment">
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="comment media">
+                <img src="images/user.png" class="profilePhoto">
+
+                <div class="media__info">
+                  <a href="#" class = "name" data-friends = "23">Jim</a>
+                  Donec imperdiet sem leo, id rutrum risus aliquam vitae. Cras tincidunt porta mauris, vel feugiat mauris accumsan eget.
+
+                  <div class="comment__info">
+                    <a href="#" class="action action--like" >Like</a>
+                    <a href="#" class="action action--unlike" style="display:none">Unlike</a>
+                    <a href="#" class="action action--reply">Reply</a>
+                    <span>2 likes</span>
+                    Yesterday at 10:00am
+                  </div>
+                </div>
+              </div>
+
+              <div class="commentForm media">
+                <img src="images/user.png" class="profilePhoto">
+
+                <div class="media__info">
+                  <form action="#" method="post">
+                    <textarea name = "comment" class = "commentText"></textarea>
+                    <input type="submit" class="action--submitcomment">
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="commentForm media">
+        <img src="images/user.png" class="profilePhoto">
+
+        <div class="media__info">
+          <form action="#" method="post">
+            <textarea name="comment"></textarea>
+            <input type="submit" class="action--submitcomment maincomment">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal" style="display: none"></div>
+<!-- <div class="modal" style="display: none"> -->
+  <div class="modal__content"  style="display: none">
+    <div class="modal__close">X</div>
+    <div class="modal__title">Title</div>
+    <div class="modal__body">Nunc nec fermentum dolor. Duis at iaculis turpis. Sed rutrum elit ac egestas dapibus. Duis nec consequat enim.</div>
+  </div>
+<!-- </div> -->
+
+</body>
+</html>

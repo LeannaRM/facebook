@@ -1,0 +1,45 @@
+Facebook JSON example
+
+
+personInfo: {
+	name: Leanna
+	numberFriends: 40
+	profilePhoto: jpg
+}
+postInfo: {
+	datePosted: Yesterday at 10:00am
+	postText: Hello World
+	numberLikes: 28
+	numberComments: 3
+}
+
+postComments: {
+	0: {
+		commenterName: Paul
+		commentText: Donec imperdiet sem leo, id rutrum risus aliquam vitae. Cras tincidunt porta mauris, vel feugiat mauris accumsan eget.
+		numberLikes: 2
+		numberReplies: 4
+		commentTime: Yesterday at 10:00am
+		replies: {
+			0: {
+				replyName: Paul
+				replyText: Donec imperdiet sem leo, id rutrum risus aliquam vitae. Cras tincidunt porta mauris, vel feugiat mauris accumsan eget.
+				numberLikes: 2
+				numberReplies: 4
+				replyTime: Yesterday at 10:00am
+				Replies: {
+					0: {
+						...
+					}
+				}
+			}
+			1: {
+				...
+			}
+		}
+	}
+	1: {
+		...
+	}
+	
+}
